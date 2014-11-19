@@ -1,3 +1,4 @@
+@import url("reset.css");
 section {
   margin-top: 5%;
   margin-bottom: 20%; }
@@ -14,29 +15,28 @@ body {
   height: 1700px; }
 
 .banner {
-  padding: 6%; }
+  padding: 5%; }
 
 img {
   float: left;
-  margin: 3px 14px 15px 2px; }
+  margin: 4% 0; }
 
 li {
   background-color: #555;
-  padding: 5%;
+  padding: 4%;
   float: left;
   list-style: none;
   text-align: center;
   font-size: .94em;
-  margin-right: 4px;
-  margin-left: 4px; }
+  margin: 12% 3.5%; }
 
 a {
   text-decoration: none;
   color: black; }
 
 .aboutme {
-  padding: 10%;
-  margin-top: 50px; }
+  padding: 15%;
+  margin-top: 30%; }
 
 .projectlinks {
   background-color: #555;
@@ -44,8 +44,7 @@ a {
   list-style: none;
   text-align: center;
   font-size: 1.2em;
-  margin-left: -4px;
-  margin-right: 9px; }
+  margin-left: 6%; }
 
 .latestproject {
   padding: 10%;
@@ -162,70 +161,7 @@ h5 {
   margin-top: 20%;
   float: right; }
 
-@media screen and (min-width: 36em) {
-  section {
-    margin-top: 5%;
-    margin-bottom: 20%; }
-
-  body {
-    font-family: georgia;
-    font-size: 1em;
-    margin: 5%; }
-
-  .global {
-    background-color: #999;
-    width: 100%;
-    max-width: 320px;
-    height: 1700px; }
-
-  .banner {
-    padding: 6%; }
-
-  img {
-    float: left;
-    margin: 3px 14px 15px 2px; }
-
-  li {
-    background-color: #555;
-    padding: 5%;
-    float: left;
-    list-style: none;
-    text-align: center;
-    font-size: .94em;
-    margin-right: 4px;
-    margin-left: 4px; }
-
-  a {
-    text-decoration: none;
-    color: black; }
-
-  .aboutme {
-    padding: 10%;
-    margin-top: 50px; }
-
-  .projectlinks {
-    background-color: #555;
-    padding: 2% 10%;
-    list-style: none;
-    text-align: center;
-    font-size: 1.2em;
-    margin-left: -4px;
-    margin-right: 9px; }
-
-  .latestproject {
-    padding: 10%;
-    margin-top: 20%;
-    text-align: center; }
-
-  .pastproject {
-    padding: 10%;
-    margin-top: 20%;
-    text-align: center; }
-
-  .socialmedia {
-    margin-top: 15%;
-    float: right; } }
-@media screen and (min-width 64em) {
+@media screen and (min-width 32em) {
   .medium {
     background-color: #999;
     width: 100%;
@@ -273,7 +209,7 @@ h5 {
   .socialmedia2 {
     margin-top: 20%;
     float: right; } }
-@media screen and (min-width 80em) {
+@media screen and (min-width 64em) {
   .large {
     background-color: #999;
     width: 1024px;
